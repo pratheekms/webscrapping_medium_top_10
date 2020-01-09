@@ -4,7 +4,6 @@ Created on Thu Jan  9 16:38:56 2020
 
 @author: pratms
 """
-
 import bs4,requests
 finalResult={}
 def scrapingFunction(name,urlName,tagName,className):
