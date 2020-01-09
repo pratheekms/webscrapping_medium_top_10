@@ -8,6 +8,7 @@ import time
 start = time.time()
 import bs4,requests
 finalResult=[]
+bookdict={}
 bookcount=1
     
 url="https://medium.com/world-literature/creating-the-ultimate-list-100-books-to-read-before-you-die-45f1b722b2e5"
@@ -22,15 +23,19 @@ bookAndAuthors=soup.find_all("strong",attrs={"class":"id ke"})
 #print(str(bookAndAuthors)+"\n")
 
 for i in range(0,len(bookAndAuthors)-4):
-    finalResult.append(bookAndAuthors[i].getText())
-    print(bookAndAuthors[i].getText())
+    if len(bookAndAuthors[i].getText())>2:
+        finalResult.append(bookAndAuthors[i].getText())
+        print(bookAndAuthors[i].getText())
     
     
 print("aa----------------")
 
+
 for i in finalResult:
-    print("book "+str(bookcount)+"--"+i)
-    bookcount=+1
+    print("book "+str(bookcount)+i)
+    print(len(finalResult[bookcount-1]))
+    bookdict.update({bookcount:{'name':i.split(' by ')[0],'author':i.split(' by ')[1]}})
+    bookcount+=1
 
 #print("\n"+"\n")
 
