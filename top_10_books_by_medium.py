@@ -8,9 +8,9 @@ import bs4,requests
 finalResult={}
 
     
-    #url='http://www.moneycontrol.com/nifty/nse/nifty-live'
+    url='https://medium.com/world-literature/creating-the-ultimate-list-100-books-to-read-before-you-die-45f1b722b2e5'
     res=requests.get(urlName,verify=False)
     res.raise_for_status()
     soup=bs4.BeautifulSoup(res.text,'lxml')
-    value=soup.find_all(tagName,attrs={"class":className})
-    sensex=value[0].getText()
+    value=soup.find_all("em",attrs={"class":"jb"})
+    print(value)
