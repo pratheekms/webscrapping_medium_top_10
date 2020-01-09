@@ -6,7 +6,7 @@ Created on Thu Jan  9 16:38:56 2020
 """
 import bs4,requests
 finalResult={}
-def scrapingFunction(name,urlName,tagName,className):
+
     
     #url='http://www.moneycontrol.com/nifty/nse/nifty-live'
     res=requests.get(urlName,verify=False)
