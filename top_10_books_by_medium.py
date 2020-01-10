@@ -68,7 +68,7 @@ for i in range(1,booknum+1):
     sheet_objex.cell(row=i,column=3).value=
     print(booknumex,booknameex,"by",bookauthorx)  
 '''    
-wb_objex.save("C:\\Users\\pratms\\OneDrive - Capgemini\\Python Scripts\\excel_doc1.xlsx")
+wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx")
     
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
