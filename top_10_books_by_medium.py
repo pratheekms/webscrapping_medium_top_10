@@ -10,7 +10,8 @@ import bs4,requests
 import openpyxl
 import random
 
-GlobalPath="C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\"
+GlobalPath=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10"
+path=GlobalPath+r"\excel_doc1.xlsx"
 #open excel file code start
 wb_objex = openpyxl.Workbook()
 sheet_objex = wb_objex.active
@@ -48,7 +49,7 @@ for bn,ba in bookdict.items():
         print(key+":",ba[key])
         bookname=ba['name']
         bookauthor=ba['author']
-    f = open(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
+    f = open(GlobalPath+r"\top100BokksByMedium.txt", "a")
     f.write(str(booknum)+'\t'+str(bookname)+'\t'+bookauthor+'\n')
     f.close()
     sheet_objex.cell(row=booknum+1,column=1).value=str(booknum)
@@ -56,7 +57,7 @@ for bn,ba in bookdict.items():
     sheet_objex.cell(row=booknum+1,column=3).value=str(bookauthor)
     #sheet_objex.cell(row=booknum+1,column=4).value='Rating'
 
-
+wb_objex.save(GlobalPath+r"\top100BokksByMedium.xlsx")
 #book name and book author details are saved to an excel file
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -66,9 +67,9 @@ except ImportError:
     print("No module named 'google' found") 
 
 
-path=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx"
+pathForRating=GlobalPath+r"\top100BokksByMedium.xlsx"
 
-wb_obj=openpyxl.load_workbook(path)
+wb_obj=openpyxl.load_workbook(pathForRating)
 sheet_obj=wb_obj.active
 m_row=sheet_obj.max_row
 print("rows="+str(m_row))
@@ -92,7 +93,7 @@ for i in range(1,m_row+1):
     print("ratinng of",bookname,bookauthor, rating)
     sheet_obj.cell(row=i,column=4).value=str(rating)
     print("rating write complete")
-wb_obj.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx")
+wb_obj.save(pathForRating)
 print("excel saved")
 
 
