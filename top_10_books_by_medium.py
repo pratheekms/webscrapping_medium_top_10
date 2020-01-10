@@ -8,11 +8,7 @@ import time
 start = time.time()
 import bs4,requests
 import openpyxl
-path="C:\\Users\\pratms\\OneDrive - Capgemini\\Python Scripts\\excel_doc.xlsx"
 
-wb_obj=openpyxl.load_workbook(path)
-sheet_obj=wb_obj.active
-m_row=sheet_obj.max_row
 
 wb_objex = openpyxl.Workbook()
 sheet_objex = wb_objex.active
@@ -59,6 +55,6 @@ for bn,ba in bookdict.items():
     #sheet_objex.cell(row=booknum+1,column=4).value='Rating'
    
 wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.xlsx")
-    
+   
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
