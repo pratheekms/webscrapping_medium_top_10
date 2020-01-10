@@ -298,7 +298,7 @@
 98	Their Eyes Were Watching God	Zora Neale Hurston
 99	Watchmen	Alan Moore
 100	The Unbearable Lightness of Being	Milan Kundera
-1	The Great Gatsby	F. Scott Fitzgerald
+
 2	Catch-22	Joseph Heller
 3	On the Road	Jack Kerouac
 4	To Kill A Mockingbird	Harper Lee 
