@@ -105,7 +105,7 @@ for i in range(1,m_row+1):
     ratingObj=soup.find("span", itemprop="ratingValue")
     rating=ratingObj.getText()
     print("ratinng of",bookname,bookauthor, rating)
-    sheet_obj.cell(row=i,column=4).value=str(rating)
+    sheet_obj.cell(row=i+1,column=4).value=str(rating)
     print("rating write complete")
 wb_obj.save(pathForRating)
 print("final excel saved")
