@@ -9,7 +9,7 @@ start = time.time()
 import bs4,requests
 import openpyxl
 
-#open excel file code
+#open excel file code start
 wb_objex = openpyxl.Workbook()
 sheet_objex = wb_objex.active
 sheet_objex.cell(row=1,column=1).value='Sl. No'
