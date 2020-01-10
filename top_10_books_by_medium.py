@@ -37,6 +37,17 @@ for i in finalResult:
     bookdict.update({bookcount:{'name':i.split(' by ')[0],'author':i.split(' by ')[1]}})
     bookcount+=1
 
+for bn,ba in bookdict.items():
+    print("book num",bn)
+    booknum=bn
+    for key in ba:
+        print(key+":",ba[key])
+        bookname=ba['name']
+        bookauthor=ba['author']
+        f = open(r"C:\Users\prath\pythonproj\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
+        f.write("Now the file has more content!")
+        f.close()
+        
 
     
 end = time.time()
