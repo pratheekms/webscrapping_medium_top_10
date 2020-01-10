@@ -26,9 +26,6 @@ for i in range(0,len(bookAndAuthors)-4):
     if len(bookAndAuthors[i].getText())>2:
         finalResult.append(bookAndAuthors[i].getText())
         print(bookAndAuthors[i].getText())
-    
-    
-print("aa----------------")
 
 
 for i in finalResult:
