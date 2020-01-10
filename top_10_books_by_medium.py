@@ -25,7 +25,7 @@ url="https://medium.com/world-literature/creating-the-ultimate-list-100-books-to
 res=requests.get(url,verify=False)
 res.raise_for_status()
 soup=bs4.BeautifulSoup(res.text,'lxml')
-slno=soup.find_all("a",attrs={"class":"fi cn hx hy hz ia"})
+#slno=soup.find_all("a",attrs={"class":"fi cn hx hy hz ia"})
 bookAndAuthors=soup.find_all("strong",attrs={"class":"id ke"})
 
 for i in range(0,len(bookAndAuthors)-4):
