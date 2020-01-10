@@ -17,10 +17,6 @@ res.raise_for_status()
 soup=bs4.BeautifulSoup(res.text,'lxml')
 slno=soup.find_all("a",attrs={"class":"fi cn hx hy hz ia"})
 bookAndAuthors=soup.find_all("strong",attrs={"class":"id ke"})
-#print("slno----------------")
-#print(str(slno)+"\n")
-#print("bookauthor----------------")
-#print(str(bookAndAuthors)+"\n")
 
 for i in range(0,len(bookAndAuthors)-4):
     if len(bookAndAuthors[i].getText())>2:
