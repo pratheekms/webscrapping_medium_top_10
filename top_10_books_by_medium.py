@@ -7,6 +7,12 @@ Created on Thu Jan  9 16:38:56 2020
 import time
 start = time.time()
 import bs4,requests
+import openpyxl
+path="C:\\Users\\pratms\\OneDrive - Capgemini\\Python Scripts\\excel_doc.xlsx"
+
+wb_obj=openpyxl.load_workbook(path)
+sheet_obj=wb_obj.active
+m_row=sheet_obj.max_row
 finalResult=[]
 bookdict={}
 bookcount=1
@@ -23,7 +29,6 @@ for i in range(0,len(bookAndAuthors)-4):
         finalResult.append(bookAndAuthors[i].getText())
         print(bookAndAuthors[i].getText())
 
-
 for i in finalResult:
     print("book "+str(bookcount)+i)
     print(len(finalResult[bookcount-1]))
@@ -37,10 +42,11 @@ for bn,ba in bookdict.items():
         print(key+":",ba[key])
         bookname=ba['name']
         bookauthor=ba['author']
-    f = open(r"C:\Users\prath\pythonproj\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
+    f = open(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
     f.write(str(booknum)+'\t'+str(bookname)+'\t'+bookauthor+'\n')
     f.close()
-        
+###########################################################################
+       
 
     
 end = time.time()
