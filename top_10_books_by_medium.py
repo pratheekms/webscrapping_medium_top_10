@@ -37,7 +37,6 @@ for i in finalResult:
     bookdict.update({bookcount:{'name':i.split(' by ')[0],'author':i.split(' by ')[1]}})
     bookcount+=1
 
-#print("\n"+"\n")
 
     
 end = time.time()
