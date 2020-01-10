@@ -8,14 +8,10 @@ import time
 start = time.time()
 import bs4,requests
 import openpyxl
-from googlesearch import search
-
-query = "The Unbearable Lightness of Being by Milan Kundera"
-  
-for j in search(query, tld="co.in", num=10, stop=2, pause=2): 
-    print(j)
-
-
+try: 
+    from googlesearch import search 
+except ImportError:  
+    print("No module named 'google' found")
 
 path=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx"
 
@@ -26,11 +22,13 @@ print("rows="+str(m_row))
 for i in range(1,m_row+1):
     bookname=sheet_obj.cell(row=i,column=2).value
     bookauthor=sheet_obj.cell(row=i,column=3).value
-    searchPhrase=bookname+" by "+bookauthor
-    #print(searchPhrase)
-    
-    
-    
+    #searchPhrase=bookname+" by "+bookauthor+" in good reads"
+    searchPhrase="Catch-22 by Joseph Heller in good reads"
+    print(searchPhrase)
+     
+  
+for j in search(searchPhrase, tld="com", num=10, stop=1, pause=3): 
+    print(j)
 
     
 end = time.time()
