@@ -10,6 +10,7 @@ import bs4,requests
 import openpyxl
 import random
 
+GlobalPath="C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\"
 #open excel file code start
 wb_objex = openpyxl.Workbook()
 sheet_objex = wb_objex.active
@@ -57,7 +58,42 @@ for bn,ba in bookdict.items():
 
 
 #book name and book author details are saved to an excel file
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+try: 
+    from googlesearch import search 
+except ImportError:  
+    print("No module named 'google' found") 
 
+
+path=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx"
+
+wb_obj=openpyxl.load_workbook(path)
+sheet_obj=wb_obj.active
+m_row=sheet_obj.max_row
+print("rows="+str(m_row))
+for i in range(1,m_row+1):
+    bookname=sheet_obj.cell(row=i,column=2).value
+    bookauthor=sheet_obj.cell(row=i,column=3).value
+    searchPhrase=bookname+" by "+bookauthor+" goodreads"
+    #searchPhrase="Catch-22 by Joseph Heller in good reads"
+    print(searchPhrase)
+#searchPhrase="1984 by George Orwell in goodreads" 
+    print(searchPhrase) 
+    for j in search(searchPhrase, tld="com", num=10, stop=1, pause=random.randint(1,20)): 
+        goodreadsurl=j
+    print(goodreadsurl)
+    print("bs4 starting")
+    res=requests.get(goodreadsurl,verify=False)
+    res.raise_for_status()
+    soup=bs4.BeautifulSoup(res.text,'lxml')
+    ratingObj=soup.find("span", itemprop="ratingValue")
+    rating=ratingObj.getText()
+    print("ratinng of",bookname,bookauthor, rating)
+    sheet_obj.cell(row=i,column=4).value=str(rating)
+    print("rating write complete")
+wb_obj.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx")
+print("excel saved")
 
 
    

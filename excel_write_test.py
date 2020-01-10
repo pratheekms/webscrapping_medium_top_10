@@ -6,8 +6,8 @@ Created on Fri Jan 10 21:03:34 2020
 """
 
 import openpyxl
-
-path=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx"
+GlobalPath=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10"
+path=GlobalPath+r"\excel_doc1.xlsx"
 
 wb_obj=openpyxl.load_workbook(path)
 sheet_obj=wb_obj.active
@@ -19,7 +19,7 @@ for i in range(1,m_row+1):
     searchPhrase=bookname+" by "+bookauthor+" goodreads"
     #searchPhrase="Catch-22 by Joseph Heller in good reads"
     print(searchPhrase)
-    rating=9
+    rating=10
     sheet_obj.cell(row=i,column=4).value=str(rating)
     print("rating write complete")
-wb_obj.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx")
+wb_obj.save(path)
