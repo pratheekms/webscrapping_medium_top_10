@@ -11,8 +11,10 @@ import openpyxl
 import random
 
 GlobalPath=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10"
-path=GlobalPath+r"\excel_doc1.xlsx"
+#path=GlobalPath+r"\excel_doc1.xlsx"
 #open excel file code start
+print("Global path is",GlobalPath)
+print("opening new excel for book author rating")
 wb_objex = openpyxl.Workbook()
 sheet_objex = wb_objex.active
 sheet_objex.cell(row=1,column=1).value='Sl. No'
@@ -20,16 +22,23 @@ sheet_objex.cell(row=1,column=2).value='Book Name'
 sheet_objex.cell(row=1,column=3).value='Book Author'
 sheet_objex.cell(row=1,column=4).value='Rating'
 
+print("writing of headers to the new excel sheet")
+
 finalResult=[]
 bookdict={}
 bookcount=1
-    
+print("scraping web for top 100 books start")    
 url="https://medium.com/world-literature/creating-the-ultimate-list-100-books-to-read-before-you-die-45f1b722b2e5"
 res=requests.get(url,verify=False)
 res.raise_for_status()
 soup=bs4.BeautifulSoup(res.text,'lxml')
 #slno=soup.find_all("a",attrs={"class":"fi cn hx hy hz ia"})
 bookAndAuthors=soup.find_all("strong",attrs={"class":"id ke"})
+
+
+print("scraping web for top 100 books end")
+
+print("exctrating data into dict start")
 
 for i in range(0,len(bookAndAuthors)-4):
     if len(bookAndAuthors[i].getText())>2:
@@ -41,7 +50,9 @@ for i in finalResult:
     print(len(finalResult[bookcount-1]))
     bookdict.update({bookcount:{'name':i.split(' by ')[0],'author':i.split(' by ')[1]}})
     bookcount+=1
-
+print("exctrating data into dict end")
+print("exctrating from dict to list")
+print("writng list slno book author to excel start")
 for bn,ba in bookdict.items():
     print("book num",bn)
     booknum=bn
@@ -58,6 +69,8 @@ for bn,ba in bookdict.items():
     #sheet_objex.cell(row=booknum+1,column=4).value='Rating'
 
 wb_objex.save(GlobalPath+r"\top100BokksByMedium.xlsx")
+print("excel with with slno book author saved")
+print("rating process starts")
 #book name and book author details are saved to an excel file
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -68,23 +81,24 @@ except ImportError:
 
 
 pathForRating=GlobalPath+r"\top100BokksByMedium.xlsx"
-
+print("saved excel file open")
 wb_obj=openpyxl.load_workbook(pathForRating)
 sheet_obj=wb_obj.active
 m_row=sheet_obj.max_row
 print("rows="+str(m_row))
 for i in range(1,m_row+1):
-    bookname=sheet_obj.cell(row=i,column=2).value
-    bookauthor=sheet_obj.cell(row=i,column=3).value
+    bookname=sheet_obj.cell(row=i+1,column=2).value
+    bookauthor=sheet_obj.cell(row=i+1,column=3).value
     searchPhrase=bookname+" by "+bookauthor+" goodreads"
     #searchPhrase="Catch-22 by Joseph Heller in good reads"
-    print(searchPhrase)
+    print("modified search phrase ",searchPhrase)
 #searchPhrase="1984 by George Orwell in goodreads" 
-    print(searchPhrase) 
+    #print(searchPhrase) 
     for j in search(searchPhrase, tld="com", num=10, stop=1, pause=random.randint(1,20)): 
         goodreadsurl=j
-    print(goodreadsurl)
-    print("bs4 starting")
+    print("good reads URL for ",bookname,bookauthor,"is ",goodreadsurl)
+    
+    print("scrapping for rating start")
     res=requests.get(goodreadsurl,verify=False)
     res.raise_for_status()
     soup=bs4.BeautifulSoup(res.text,'lxml')
@@ -94,11 +108,11 @@ for i in range(1,m_row+1):
     sheet_obj.cell(row=i,column=4).value=str(rating)
     print("rating write complete")
 wb_obj.save(pathForRating)
-print("excel saved")
+print("final excel saved")
 
 
    
-wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.xlsx")
+#wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.xlsx")
    
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
