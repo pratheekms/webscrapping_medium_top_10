@@ -44,9 +44,9 @@ for bn,ba in bookdict.items():
         print(key+":",ba[key])
         bookname=ba['name']
         bookauthor=ba['author']
-        f = open(r"C:\Users\prath\pythonproj\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
-        f.write("Now the file has more content!")
-        f.close()
+    f = open(r"C:\Users\prath\pythonproj\webscrapping_medium_top_10\top100BokksByMedium.txt", "a")
+    f.write(str(booknum)+'\t'+str(bookname)+'\t'+bookauthor+'\n')
+    f.close()
         
 
     
