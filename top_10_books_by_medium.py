@@ -9,8 +9,30 @@ start = time.time()
 import bs4,requests
 import openpyxl
 import random
+import logging
 
 GlobalPath=r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10"
+
+newfile=GlobalPath+'\\'+str(time.ctime(time.time()))+'.log'
+logging.basicConfig(filename=newfile, 
+                    format='%(asctime)s %(message)s', 
+                    filemode='w')
+
+#Creating an object 
+logger=logging.getLogger() 
+  
+#Setting the threshold of logger to DEBUG 
+logger.setLevel(logging.DEBUG) 
+  
+#Test messages 
+logger.debug("Harmless debug Message") 
+logger.info("Just an information") 
+logger.warning("Its a Warning") 
+logger.error("Did you try to divide by zero") 
+logger.critical("Internet is down")
+
+
+
 #path=GlobalPath+r"\excel_doc1.xlsx"
 #open excel file code start
 print("Global path is",GlobalPath)
@@ -116,3 +138,4 @@ print("final excel saved")
    
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
+logging.shutdown()
