@@ -15,13 +15,14 @@ sheet_obj=wb_obj.active
 m_row=sheet_obj.max_row
 print("rows="+str(m_row))
 for i in range(1,m_row+1):
-    cell_obj=sheet_obj.cell(row=i,column=1)
-    cell_value=cell_obj.value
-    print(cell_value)
+    bookname=sheet_obj.cell(row=i,column=2).value
+    bookauthor=sheet_obj.cell(row=i,column=3).value
+    searchPhrase=bookname+" by "+bookauthor
+    print(searchPhrase)
+    
+    
     
 
-print("kjhsdh")
-print("sfsdfasfdsdfsadsdf")
     
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
