@@ -8,6 +8,7 @@ import time
 start = time.time()
 import bs4,requests
 import openpyxl
+import random
 
 #open excel file code start
 wb_objex = openpyxl.Workbook()
@@ -53,6 +54,12 @@ for bn,ba in bookdict.items():
     sheet_objex.cell(row=booknum+1,column=2).value=str(bookname)
     sheet_objex.cell(row=booknum+1,column=3).value=str(bookauthor)
     #sheet_objex.cell(row=booknum+1,column=4).value='Rating'
+
+
+#book name and book author details are saved to an excel file
+
+
+
    
 wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.xlsx")
    
