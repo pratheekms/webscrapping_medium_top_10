@@ -2799,3 +2799,103 @@
 98	Their Eyes Were Watching God	Zora Neale Hurston
 99	Watchmen	Alan Moore
 100	The Unbearable Lightness of Being	Milan Kundera
+1	The Great Gatsby	F. Scott Fitzgerald
+2	Catch-22	Joseph Heller
+3	On the Road	Jack Kerouac
+4	To Kill A Mockingbird	Harper Lee 
+5	The Lord Of The Rings	J. R. R. Tolkien
+6	Lolita Vladimir	Nabokov
+7	The Catcher in the Rye	JD Salinger 
+8	Midnight’s Children	Salman Rushdie
+9	Alice’s Adventures In Wonderland	Lewis Carroll 
+10	Ulysses	James Joyce 
+11	Lord of the Flies	William Golding
+12	The Grapes Of Wrath	John Steinbeck
+13	1984	George Orwell
+14	Jane Eyre	Charlotte Brontë
+15	Moby-Dick	Herman Melville
+16	Mrs. Dalloway	Virginia Woolf 
+17	A Passage to India	EM Forster
+18	Brave New World	Aldous Huxley
+19	Things Fall Apart	Chinua Achebe
+20	The Prime of Miss Jean Brodie	Muriel Spark
+21	One Hundred Years of Solitude	Gabriel García Márquez
+22	Pride and Prejudice	Jane Austen
+23	Animal Farm	George Orwell
+24	Crime And Punishment	Fyodor Dostoyevsky
+25	Beloved	Toni Morrison
+26	Invisible Man	Ralph Ellison
+27	Slaughterhouse-Five	Kurt Vonnegut
+28	The Stranger	Albert Camus
+29	Don Quixote	Miguel De Cervantes
+30	Robinson Crusoe	Daniel Defoe
+31	Frankenstein	Mary Shelley
+32	The Count of Monte Cristo	Alexandre Dumas 
+33	David Copperfield	Charles Dickens
+34	Wuthering Heights	Emily Brontë
+35	Little Women	Louisa M Alcott
+36	The Call of the Wild	Jack London
+37	The Wind in the Willows	Kenneth Grahame
+38	Scoop	Evelyn Waugh
+39	The Big Sleep	Raymond Chandler
+40	Lucky Jim	Kingsley Amis
+41	If on a Winter’s Night a Traveller	Italo Calvino
+42	A Bend in the River	V. S. Naipaul
+43	Housekeeping	Marilynne Robinson
+44	Atonement	Ian McEwan
+45	His Dark Materials	Philip Pullman
+46	The Hitchhiker’s Guide to the Galaxy	Douglas Adams
+47	Great Expectations	Charles Dickens
+48	Middlemarch	George Eliot 
+49	Brideshead Revisited	Evelyn Waugh
+50	Anna Karenina	Leo Tolstoy
+51	Portnoy’s Complaint	Philip Roth
+52	The Age of Innocence	Edith Wharton
+53	The Handmaid’s Tale	Margaret Atwood
+54	The Sun Also Rises	Ernest Hemingway
+55	To the Lighthouse	Virginia Woolf 
+56	White Noise	Don DeLillo
+57	The Heart Is a Lonely Hunter	Carson McCullers
+58	The Sound and the Fury	William Faulkner
+59	Pale Fire	Vladimir Nabokov
+60	I, Claudius	Robert Graves
+61	Go Tell It On The Mountain	James Baldwin
+62	A Dance to The Music of Time	Anthony Powell
+63	Tropic of Cancer	Henry Miller 
+64	Wide Sargasso Sea	Jean Rhys
+65	Under The Net	Iris Murdoch 
+66	Gulliver’s Travels	Jonathan Swift
+67	Tom Jones	Henry Fielding
+68	Clarissa	Samuel Richardson
+69	Tristram Shandy	Laurence Sterne 
+70	The Scarlet Letter	Nathaniel Hawthorne 
+71	Madame Bovary	Gustave Flaubert 
+72	The Portrait of a Lady	Henry James
+73	The Strange Case of Dr Jekyll and Mr Hyde	Robert Louis Stevenson
+74	Nostromo	Joseph Conrad
+75	In Search of Lost Time	Marcel Proust
+76	The Rainbow	D. H. Lawrence
+77	The Good Soldier	Ford Madox Ford
+78	The Trial	Franz Kafka
+79	As I Lay Dying	William Faulkner
+80	Charlotte’s Web	E. B. White
+81	The Tin Drum	Gunter Grass 
+82	Herzog	Saul Bellow
+83	Tinker Tailor Soldier Spy	John Le Carré
+84	Song of Solomon	Toni Morrison
+85	Money	Martin Amis
+86	Oscar And Lucinda	Peter Carey
+87	Haroun and the Sea of Stories	Salman Rushdie
+88	American Pastoral	Philip Roth
+89	Austerlitz	W. G. Sebald
+90	A Wrinkle in Time	Madeleine L’Engle
+91	Are You There, God? It’s me, Margaret	Judy Blume
+92	Of Human Bondage	W. Somerset Maugham
+93	The Amazing Adventures of Kavalier and Clay	Michael Chabon
+94	The Brief Wondrous Life of Oscar Wao	Junot Diaz
+95	The Corrections	Jonathan Franzen
+96	The Phantom Tollbooth	Norton Juster
+97	The Wind-Up Bird Chronicle	Haruki Murakami
+98	Their Eyes Were Watching God	Zora Neale Hurston
+99	Watchmen	Alan Moore
+100	The Unbearable Lightness of Being	Milan Kundera

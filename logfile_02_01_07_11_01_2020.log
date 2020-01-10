@@ -1,0 +1,621 @@
+2020-01-11 02:01:07,813 opening new excel for book author rating
+2020-01-11 02:01:07,816 writing of headers to the new excel sheet
+2020-01-11 02:01:07,817 ------scraping web for top 100 books start------
+2020-01-11 02:01:07,825 Starting new HTTPS connection (1): medium.com:443
+2020-01-11 02:01:09,466 https://medium.com:443 "GET /world-literature/creating-the-ultimate-list-100-books-to-read-before-you-die-45f1b722b2e5 HTTP/1.1" 200 None
+2020-01-11 02:01:09,621 ------scraping web for top 100 books end------
+2020-01-11 02:01:09,621 exctrating data into dict start
+2020-01-11 02:01:09,630 book 1The Great Gatsby by F. Scott Fitzgerald
+2020-01-11 02:01:09,631 book 2Catch-22 by Joseph Heller
+2020-01-11 02:01:09,631 book 3On the Road by Jack Kerouac
+2020-01-11 02:01:09,631 book 4To Kill A Mockingbird by Harper Lee 
+2020-01-11 02:01:09,631 book 5The Lord Of The Rings by J. R. R. Tolkien
+2020-01-11 02:01:09,632 book 6Lolita Vladimir by Nabokov
+2020-01-11 02:01:09,632 book 7The Catcher in the Rye by JD Salinger 
+2020-01-11 02:01:09,632 book 8Midnight’s Children by Salman Rushdie
+2020-01-11 02:01:09,632 book 9Alice’s Adventures In Wonderland by Lewis Carroll 
+2020-01-11 02:01:09,632 book 10Ulysses by James Joyce 
+2020-01-11 02:01:09,632 book 11Lord of the Flies by William Golding
+2020-01-11 02:01:09,632 book 12The Grapes Of Wrath by John Steinbeck
+2020-01-11 02:01:09,633 book 131984 by George Orwell
+2020-01-11 02:01:09,633 book 14Jane Eyre by Charlotte Brontë
+2020-01-11 02:01:09,633 book 15Moby-Dick by Herman Melville
+2020-01-11 02:01:09,633 book 16Mrs. Dalloway by Virginia Woolf 
+2020-01-11 02:01:09,634 book 17A Passage to India by EM Forster
+2020-01-11 02:01:09,634 book 18Brave New World by Aldous Huxley
+2020-01-11 02:01:09,634 book 19Things Fall Apart by Chinua Achebe
+2020-01-11 02:01:09,635 book 20The Prime of Miss Jean Brodie by Muriel Spark
+2020-01-11 02:01:09,635 book 21One Hundred Years of Solitude by Gabriel García Márquez
+2020-01-11 02:01:09,635 book 22Pride and Prejudice by Jane Austen
+2020-01-11 02:01:09,635 book 23Animal Farm by George Orwell
+2020-01-11 02:01:09,636 book 24Crime And Punishment by Fyodor Dostoyevsky
+2020-01-11 02:01:09,636 book 25Beloved by Toni Morrison
+2020-01-11 02:01:09,637 book 26Invisible Man by Ralph Ellison
+2020-01-11 02:01:09,637 book 27Slaughterhouse-Five by Kurt Vonnegut
+2020-01-11 02:01:09,637 book 28The Stranger by Albert Camus
+2020-01-11 02:01:09,638 book 29Don Quixote by Miguel De Cervantes
+2020-01-11 02:01:09,638 book 30Robinson Crusoe by Daniel Defoe
+2020-01-11 02:01:09,639 book 31Frankenstein by Mary Shelley
+2020-01-11 02:01:09,639 book 32The Count of Monte Cristo by Alexandre Dumas 
+2020-01-11 02:01:09,640 book 33David Copperfield by Charles Dickens
+2020-01-11 02:01:09,640 book 34Wuthering Heights by Emily Brontë
+2020-01-11 02:01:09,641 book 35Little Women by Louisa M Alcott
+2020-01-11 02:01:09,641 book 36The Call of the Wild by Jack London
+2020-01-11 02:01:09,641 book 37The Wind in the Willows by Kenneth Grahame
+2020-01-11 02:01:09,642 book 38Scoop by Evelyn Waugh
+2020-01-11 02:01:09,642 book 39The Big Sleep by Raymond Chandler
+2020-01-11 02:01:09,643 book 40Lucky Jim by Kingsley Amis
+2020-01-11 02:01:09,643 book 41If on a Winter’s Night a Traveller by Italo Calvino
+2020-01-11 02:01:09,644 book 42A Bend in the River by V. S. Naipaul
+2020-01-11 02:01:09,644 book 43Housekeeping by Marilynne Robinson
+2020-01-11 02:01:09,645 book 44Atonement by Ian McEwan
+2020-01-11 02:01:09,645 book 45His Dark Materials by Philip Pullman
+2020-01-11 02:01:09,646 book 46The Hitchhiker’s Guide to the Galaxy by Douglas Adams
+2020-01-11 02:01:09,646 book 47Great Expectations by Charles Dickens
+2020-01-11 02:01:09,646 book 48Middlemarch by George Eliot 
+2020-01-11 02:01:09,647 book 49Brideshead Revisited by Evelyn Waugh
+2020-01-11 02:01:09,647 book 50Anna Karenina by Leo Tolstoy
+2020-01-11 02:01:09,648 book 51Portnoy’s Complaint by Philip Roth
+2020-01-11 02:01:09,649 book 52The Age of Innocence by Edith Wharton
+2020-01-11 02:01:09,649 book 53The Handmaid’s Tale by Margaret Atwood
+2020-01-11 02:01:09,649 book 54The Sun Also Rises by Ernest Hemingway
+2020-01-11 02:01:09,650 book 55To the Lighthouse by Virginia Woolf 
+2020-01-11 02:01:09,650 book 56White Noise by Don DeLillo
+2020-01-11 02:01:09,651 book 57The Heart Is a Lonely Hunter by Carson McCullers
+2020-01-11 02:01:09,651 book 58The Sound and the Fury by William Faulkner
+2020-01-11 02:01:09,651 book 59Pale Fire by Vladimir Nabokov
+2020-01-11 02:01:09,652 book 60I, Claudius by Robert Graves
+2020-01-11 02:01:09,652 book 61Go Tell It On The Mountain by James Baldwin
+2020-01-11 02:01:09,652 book 62A Dance to The Music of Time by Anthony Powell
+2020-01-11 02:01:09,653 book 63Tropic of Cancer by Henry Miller 
+2020-01-11 02:01:09,653 book 64Wide Sargasso Sea by Jean Rhys
+2020-01-11 02:01:09,653 book 65Under The Net by Iris Murdoch 
+2020-01-11 02:01:09,654 book 66Gulliver’s Travels by Jonathan Swift
+2020-01-11 02:01:09,654 book 67Tom Jones by Henry Fielding
+2020-01-11 02:01:09,654 book 68Clarissa by Samuel Richardson
+2020-01-11 02:01:09,655 book 69Tristram Shandy by Laurence Sterne 
+2020-01-11 02:01:09,655 book 70The Scarlet Letter by Nathaniel Hawthorne 
+2020-01-11 02:01:09,656 book 71Madame Bovary by Gustave Flaubert 
+2020-01-11 02:01:09,656 book 72The Portrait of a Lady by Henry James
+2020-01-11 02:01:09,656 book 73The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson
+2020-01-11 02:01:09,657 book 74Nostromo by Joseph Conrad
+2020-01-11 02:01:09,657 book 75In Search of Lost Time by Marcel Proust
+2020-01-11 02:01:09,658 book 76The Rainbow by D. H. Lawrence
+2020-01-11 02:01:09,658 book 77The Good Soldier by Ford Madox Ford
+2020-01-11 02:01:09,659 book 78The Trial by Franz Kafka
+2020-01-11 02:01:09,659 book 79As I Lay Dying by William Faulkner
+2020-01-11 02:01:09,659 book 80Charlotte’s Web by E. B. White
+2020-01-11 02:01:09,660 book 81The Tin Drum by Gunter Grass 
+2020-01-11 02:01:09,660 book 82Herzog by Saul Bellow
+2020-01-11 02:01:09,661 book 83Tinker Tailor Soldier Spy by John Le Carré
+2020-01-11 02:01:09,661 book 84Song of Solomon by Toni Morrison
+2020-01-11 02:01:09,662 book 85Money by Martin Amis
+2020-01-11 02:01:09,662 book 86Oscar And Lucinda by Peter Carey
+2020-01-11 02:01:09,662 book 87Haroun and the Sea of Stories by Salman Rushdie
+2020-01-11 02:01:09,663 book 88American Pastoral by Philip Roth
+2020-01-11 02:01:09,663 book 89Austerlitz by W. G. Sebald
+2020-01-11 02:01:09,664 book 90A Wrinkle in Time by Madeleine L’Engle
+2020-01-11 02:01:09,664 book 91Are You There, God? It’s me, Margaret by Judy Blume
+2020-01-11 02:01:09,665 book 92Of Human Bondage by W. Somerset Maugham
+2020-01-11 02:01:09,665 book 93The Amazing Adventures of Kavalier and Clay by Michael Chabon
+2020-01-11 02:01:09,665 book 94The Brief Wondrous Life of Oscar Wao by Junot Diaz
+2020-01-11 02:01:09,665 book 95The Corrections by Jonathan Franzen
+2020-01-11 02:01:09,666 book 96The Phantom Tollbooth by Norton Juster
+2020-01-11 02:01:09,666 book 97The Wind-Up Bird Chronicle by Haruki Murakami
+2020-01-11 02:01:09,667 book 98Their Eyes Were Watching God by Zora Neale Hurston
+2020-01-11 02:01:09,667 book 99Watchmen by Alan Moore
+2020-01-11 02:01:09,667 book 100The Unbearable Lightness of Being by Milan Kundera
+2020-01-11 02:01:09,668 exctrating data into dict end
+2020-01-11 02:01:09,668 exctrating from dict to list
+2020-01-11 02:01:09,668 ------writng list slno book author to excel start------
+2020-01-11 02:01:09,818 ------writng list slno book author to excel end------
+2020-01-11 02:01:09,854 ------excel with with slno book author saved------
+2020-01-11 02:01:09,854 ------------rating process starts------------
+2020-01-11 02:01:09,895 ------saved excel file open------
+2020-01-11 02:01:09,950 ---------------------------------------------------
+2020-01-11 02:01:09,950 ---------------------------------------------------
+2020-01-11 02:01:13,955 ---scrapping for rating start---
+2020-01-11 02:01:13,960 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:01:17,329 https://www.goodreads.com:443 "GET /book/show/4671.The_Great_Gatsby?sa=X&ved=2ahUKEwifwLmO8PnmAhXDyDgGHU2CBEcQFjAAegQIBhAB HTTP/1.1" 200 None
+2020-01-11 02:01:18,908 ---rating write complete---
+2020-01-11 02:01:18,908 ---------------------------------------------------
+2020-01-11 02:01:34,075 ---scrapping for rating start---
+2020-01-11 02:01:34,079 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:01:37,330 https://www.goodreads.com:443 "GET /book/show/168668.Catch_22?sa=X&ved=2ahUKEwid7IaY8PnmAhX_yzgGHQ3GDQoQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:01:38,976 ---rating write complete---
+2020-01-11 02:01:38,977 ---------------------------------------------------
+2020-01-11 02:01:45,128 ---scrapping for rating start---
+2020-01-11 02:01:45,132 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:01:46,858 https://www.goodreads.com:443 "GET /work/quotes/49169349-on-the-road-the-original-scroll?sa=X&ved=2ahUKEwjM8qmd8PnmAhVcxzgGHaneD_AQFjAAegQICxAC HTTP/1.1" 200 None
+2020-01-11 02:01:47,190 ^^^rating write complete with ERROR^^^
+2020-01-11 02:01:47,212 ---final excel saved---
+2020-01-11 02:01:47,213 ---------------------------------------------------
+2020-01-11 02:01:47,213 ---------------------------------------------------
+2020-01-11 02:02:01,355 ---scrapping for rating start---
+2020-01-11 02:02:01,359 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:02:05,343 https://www.goodreads.com:443 "GET /book/show/2657.To_Kill_a_Mockingbird?sa=X&ved=2ahUKEwiKwIil8PnmAhXn4zgGHXlNBmgQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:02:06,854 ---rating write complete---
+2020-01-11 02:02:06,855 ---------------------------------------------------
+2020-01-11 02:02:20,004 ---scrapping for rating start---
+2020-01-11 02:02:20,008 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:02:23,588 https://www.goodreads.com:443 "GET /book/show/33.The_Lord_of_the_Rings?sa=X&ved=2ahUKEwir9Pmt8PnmAhU4yDgGHfnxAHUQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:02:25,842 ---rating write complete---
+2020-01-11 02:02:25,843 ---------------------------------------------------
+2020-01-11 02:02:33,983 ---scrapping for rating start---
+2020-01-11 02:02:33,988 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:02:35,339 https://www.goodreads.com:443 "GET /author/quotes/5152.Vladimir_Nabokov?sa=X&ved=2ahUKEwjLzNC08PnmAhXK4jgGHevpCdYQFjAAegQICxAC HTTP/1.1" 200 None
+2020-01-11 02:02:35,865 ^^^rating write complete with ERROR^^^
+2020-01-11 02:02:35,884 ---final excel saved---
+2020-01-11 02:02:35,884 ---------------------------------------------------
+2020-01-11 02:02:35,884 ---------------------------------------------------
+2020-01-11 02:02:49,033 ---scrapping for rating start---
+2020-01-11 02:02:49,036 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:02:52,240 https://www.goodreads.com:443 "GET /book/show/5107.The_Catcher_in_the_Rye?sa=X&ved=2ahUKEwjDrue78PnmAhV_zjgGHblkCA0QFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:02:53,888 ---rating write complete---
+2020-01-11 02:02:53,889 ---------------------------------------------------
+2020-01-11 02:03:08,923 ---scrapping for rating start---
+2020-01-11 02:03:08,926 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:03:12,299 https://www.goodreads.com:443 "GET /book/show/14836.Midnight_s_Children?sa=X&ved=2ahUKEwidxaTF8PnmAhX_4zgGHWGyAWUQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:03:13,869 ---rating write complete---
+2020-01-11 02:03:13,870 ---------------------------------------------------
+2020-01-11 02:03:16,008 ---scrapping for rating start---
+2020-01-11 02:03:16,012 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:03:19,320 https://www.goodreads.com:443 "GET /book/show/6324090-alice-s-adventures-in-wonderland?sa=X&ved=2ahUKEwiXucrI8PnmAhWpyzgGHaOPCBQQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:03:20,903 ---rating write complete---
+2020-01-11 02:03:20,903 ---------------------------------------------------
+2020-01-11 02:03:32,053 ---scrapping for rating start---
+2020-01-11 02:03:32,056 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:03:36,817 https://www.goodreads.com:443 "GET /book/show/338798.Ulysses?sa=X&ved=2ahUKEwiKmqnQ8PnmAhXbxDgGHeSrBzsQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:03:37,665 ---rating write complete---
+2020-01-11 02:03:37,666 ---------------------------------------------------
+2020-01-11 02:03:43,828 ---scrapping for rating start---
+2020-01-11 02:03:43,831 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:03:47,246 https://www.goodreads.com:443 "GET /book/show/7624.Lord_of_the_Flies?sa=X&ved=2ahUKEwiF5PbV8PnmAhUazDgGHXP2D4IQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:03:48,572 ---rating write complete---
+2020-01-11 02:03:48,573 ---------------------------------------------------
+2020-01-11 02:03:56,573 ---scrapping for rating start---
+2020-01-11 02:03:56,577 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:04:00,176 https://www.goodreads.com:443 "GET /book/show/18114322-the-grapes-of-wrath?sa=X&ved=2ahUKEwiT0P3b8PnmAhUDwzgGHSuPDI0QFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:04:01,072 ---rating write complete---
+2020-01-11 02:04:01,072 ---------------------------------------------------
+2020-01-11 02:04:18,307 ---scrapping for rating start---
+2020-01-11 02:04:18,310 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:04:22,160 https://www.goodreads.com:443 "GET /book/show/40961427-1984?sa=X&ved=2ahUKEwiel6vm8PnmAhW_xDgGHUkcC68QFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:04:23,713 ---rating write complete---
+2020-01-11 02:04:23,714 ---------------------------------------------------
+2020-01-11 02:04:35,773 ---scrapping for rating start---
+2020-01-11 02:04:35,775 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:04:39,744 https://www.goodreads.com:443 "GET /book/show/10210.Jane_Eyre?sa=X&ved=2ahUKEwi5hNPu8PnmAhXRwjgGHc-VA8sQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:04:41,390 ---rating write complete---
+2020-01-11 02:04:41,390 ---------------------------------------------------
+2020-01-11 02:05:01,547 ---scrapping for rating start---
+2020-01-11 02:05:01,550 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:05:05,545 https://www.goodreads.com:443 "GET /book/show/153747.Moby_Dick_or_the_Whale?sa=X&ved=2ahUKEwi3hv768PnmAhVPzTgGHZouCOgQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:05:07,506 ---rating write complete---
+2020-01-11 02:05:07,506 ---------------------------------------------------
+2020-01-11 02:05:22,460 ---scrapping for rating start---
+2020-01-11 02:05:22,464 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:05:26,104 https://www.goodreads.com:443 "GET /book/show/14942.Mrs_Dalloway?sa=X&ved=2ahUKEwiK_PqE8fnmAhW3yzgGHU2_CCIQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:05:27,027 ---rating write complete---
+2020-01-11 02:05:27,028 ---------------------------------------------------
+2020-01-11 02:05:48,048 ---scrapping for rating start---
+2020-01-11 02:05:48,052 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:05:51,321 https://www.goodreads.com:443 "GET /book/show/45195.A_Passage_to_India?sa=X&ved=2ahUKEwj9h5GR8fnmAhXdzTgGHb2WDFMQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:05:52,978 ---rating write complete---
+2020-01-11 02:05:52,979 ---------------------------------------------------
+2020-01-11 02:06:06,962 ---scrapping for rating start---
+2020-01-11 02:06:06,965 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:06:10,486 https://www.goodreads.com:443 "GET /book/show/5129.Brave_New_World?sa=X&ved=2ahUKEwj97JWa8fnmAhVIzjgGHcKmALgQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:06:12,126 ---rating write complete---
+2020-01-11 02:06:12,127 ---------------------------------------------------
+2020-01-11 02:06:33,261 ---scrapping for rating start---
+2020-01-11 02:06:33,264 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:06:36,656 https://www.goodreads.com:443 "GET /book/show/37781.Things_Fall_Apart?sa=X&ved=2ahUKEwiw6N2m8fnmAhXgzzgGHQUoCgYQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:06:38,399 ---rating write complete---
+2020-01-11 02:06:38,399 ---------------------------------------------------
+2020-01-11 02:06:58,384 ---scrapping for rating start---
+2020-01-11 02:06:58,387 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:07:02,141 https://www.goodreads.com:443 "GET /book/show/517188.The_Prime_of_Miss_Jean_Brodie?sa=X&ved=2ahUKEwi4g9iy8fnmAhWNxzgGHX9FCaMQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:07:02,778 ---rating write complete---
+2020-01-11 02:07:02,779 ---------------------------------------------------
+2020-01-11 02:07:20,960 ---scrapping for rating start---
+2020-01-11 02:07:20,965 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:07:24,702 https://www.goodreads.com:443 "GET /book/show/320.One_Hundred_Years_of_Solitude?sa=X&ved=2ahUKEwjYurq98fnmAhX_xTgGHceYCgQQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:07:26,364 ---rating write complete---
+2020-01-11 02:07:26,365 ---------------------------------------------------
+2020-01-11 02:07:30,347 ---scrapping for rating start---
+2020-01-11 02:07:30,351 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:07:33,622 https://www.goodreads.com:443 "GET /book/show/1885.Pride_and_Prejudice?sa=X&ved=2ahUKEwjt3PbB8fnmAhVI4zgGHVvSA-0QFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:07:34,906 ---rating write complete---
+2020-01-11 02:07:34,907 ---------------------------------------------------
+2020-01-11 02:07:49,918 ---scrapping for rating start---
+2020-01-11 02:07:49,922 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:07:53,547 https://www.goodreads.com:443 "GET /book/show/170448.Animal_Farm?sa=X&ved=2ahUKEwiFlqHL8fnmAhUwxjgGHestCRUQFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:07:54,848 ---rating write complete---
+2020-01-11 02:07:54,848 ---------------------------------------------------
+2020-01-11 02:08:07,015 ---scrapping for rating start---
+2020-01-11 02:08:07,019 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:08:08,766 https://www.goodreads.com:443 "GET /book/show/47814243-crime-and-punishment?sa=X&ved=2ahUKEwiPxLfT8fnmAhVUyzgGHUqVAHcQFnoECAsQAg HTTP/1.1" 200 None
+2020-01-11 02:08:09,297 ---rating write complete---
+2020-01-11 02:08:09,298 ---------------------------------------------------
+2020-01-11 02:08:26,505 ---scrapping for rating start---
+2020-01-11 02:08:26,508 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:08:30,621 https://www.goodreads.com:443 "GET /book/show/6149.Beloved?sa=X&ved=2ahUKEwiqlNjc8fnmAhV5zjgGHSHUA_YQFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:08:32,292 ---rating write complete---
+2020-01-11 02:08:32,293 ---------------------------------------------------
+2020-01-11 02:08:41,267 ---scrapping for rating start---
+2020-01-11 02:08:41,271 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:08:44,986 https://www.goodreads.com:443 "GET /book/show/16981.Invisible_Man?sa=X&ved=2ahUKEwj-oODj8fnmAhVn4zgGHdb0A7MQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:08:45,856 ---rating write complete---
+2020-01-11 02:08:45,856 ---------------------------------------------------
+2020-01-11 02:09:03,089 ---scrapping for rating start---
+2020-01-11 02:09:03,092 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:09:07,238 https://www.goodreads.com:443 "GET /book/show/4981.Slaughterhouse_Five?sa=X&ved=2ahUKEwjK3ZLu8fnmAhW6yDgGHUGeBSkQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:09:08,755 ---rating write complete---
+2020-01-11 02:09:08,755 ---------------------------------------------------
+2020-01-11 02:09:24,727 ---scrapping for rating start---
+2020-01-11 02:09:24,731 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:09:28,973 https://www.goodreads.com:443 "GET /book/show/49552.The_Stranger?sa=X&ved=2ahUKEwiJu7348fnmAhWMzDgGHSO6DDgQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:09:30,597 ---rating write complete---
+2020-01-11 02:09:30,598 ---------------------------------------------------
+2020-01-11 02:09:32,569 ---scrapping for rating start---
+2020-01-11 02:09:32,572 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:09:36,859 https://www.goodreads.com:443 "GET /book/show/3836.Don_Quixote?sa=X&ved=2ahUKEwimm5z88fnmAhWPyTgGHQjDA34QFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:09:38,655 ---rating write complete---
+2020-01-11 02:09:38,656 ---------------------------------------------------
+2020-01-11 02:09:50,593 ---scrapping for rating start---
+2020-01-11 02:09:50,596 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:09:54,170 https://www.goodreads.com:443 "GET /book/show/2932.Robinson_Crusoe?sa=X&ved=2ahUKEwjHsumE8vnmAhWFzDgGHcGgCH4QFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:09:55,882 ---rating write complete---
+2020-01-11 02:09:55,882 ---------------------------------------------------
+2020-01-11 02:10:06,023 ---scrapping for rating start---
+2020-01-11 02:10:06,027 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:10:10,262 https://www.goodreads.com:443 "GET /book/show/35031085-frankenstein?sa=X&ved=2ahUKEwiIoZeM8vnmAhWAxzgGHSgsBLAQFjAAegQIBhAB HTTP/1.1" 200 None
+2020-01-11 02:10:11,936 ---rating write complete---
+2020-01-11 02:10:11,937 ---------------------------------------------------
+2020-01-11 02:10:21,959 ---scrapping for rating start---
+2020-01-11 02:10:21,963 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:10:26,388 https://www.goodreads.com:443 "GET /book/show/7126.The_Count_of_Monte_Cristo?sa=X&ved=2ahUKEwjOmt-T8vnmAhXBxjgGHe6XC6IQFjAAegQIBhAB HTTP/1.1" 200 None
+2020-01-11 02:10:27,150 ---rating write complete---
+2020-01-11 02:10:27,150 ---------------------------------------------------
+2020-01-11 02:10:38,102 ---scrapping for rating start---
+2020-01-11 02:10:38,105 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:10:41,843 https://www.goodreads.com:443 "GET /book/show/58696.David_Copperfield?sa=X&ved=2ahUKEwj7n7yb8vnmAhWbyzgGHWo6AbcQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:10:43,370 ---rating write complete---
+2020-01-11 02:10:43,371 ---------------------------------------------------
+2020-01-11 02:10:59,304 ---scrapping for rating start---
+2020-01-11 02:10:59,308 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:11:03,213 https://www.goodreads.com:443 "GET /book/show/6185.Wuthering_Heights?sa=X&ved=2ahUKEwj00syl8vnmAhXXzDgGHaJMBDsQFjAAegQIBhAB HTTP/1.1" 200 None
+2020-01-11 02:11:04,726 ---rating write complete---
+2020-01-11 02:11:04,727 ---------------------------------------------------
+2020-01-11 02:11:11,802 ---scrapping for rating start---
+2020-01-11 02:11:11,805 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:11:15,056 https://www.goodreads.com:443 "GET /book/show/1934.Little_Women?sa=X&ved=2ahUKEwi_x8ir8vnmAhXFxzgGHQ55CPMQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:11:16,404 ---rating write complete---
+2020-01-11 02:11:16,405 ---------------------------------------------------
+2020-01-11 02:11:22,561 ---scrapping for rating start---
+2020-01-11 02:11:22,564 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:11:26,158 https://www.goodreads.com:443 "GET /book/show/1852.The_Call_of_the_Wild?sa=X&ved=2ahUKEwiRk9Sw8vnmAhXIyzgGHWP2BJgQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:11:27,621 ---rating write complete---
+2020-01-11 02:11:27,622 ---------------------------------------------------
+2020-01-11 02:11:35,779 ---scrapping for rating start---
+2020-01-11 02:11:35,785 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:11:39,193 https://www.goodreads.com:443 "GET /book/show/5659.The_Wind_in_the_Willows?sa=X&ved=2ahUKEwikxfy28vnmAhVYwjgGHY5hAycQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:11:39,846 ---rating write complete---
+2020-01-11 02:11:39,846 ---------------------------------------------------
+2020-01-11 02:11:54,794 ---scrapping for rating start---
+2020-01-11 02:11:54,796 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:11:58,119 https://www.goodreads.com:443 "GET /book/show/30919.Scoop?sa=X&ved=2ahUKEwiQm4bA8vnmAhXZxzgGHa0GDOsQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:11:59,451 ---rating write complete---
+2020-01-11 02:11:59,452 ---------------------------------------------------
+2020-01-11 02:12:14,692 ---scrapping for rating start---
+2020-01-11 02:12:14,696 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:12:18,777 https://www.goodreads.com:443 "GET /book/show/2052.The_Big_Sleep?sa=X&ved=2ahUKEwjjvcPJ8vnmAhUOzTgGHYg4CsAQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:12:20,477 ---rating write complete---
+2020-01-11 02:12:20,477 ---------------------------------------------------
+2020-01-11 02:12:29,408 ---scrapping for rating start---
+2020-01-11 02:12:29,408 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:12:32,899 https://www.goodreads.com:443 "GET /book/show/395182.Lucky_Jim?sa=X&ved=2ahUKEwj3oMfQ8vnmAhXb4jgGHd_fDZAQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:12:34,400 ---rating write complete---
+2020-01-11 02:12:34,400 ---------------------------------------------------
+2020-01-11 02:12:42,600 ---scrapping for rating start---
+2020-01-11 02:12:42,605 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:12:47,976 https://www.goodreads.com:443 "GET /book/show/374233.If_on_a_Winter_s_Night_a_Traveler?sa=X&ved=2ahUKEwiAoejW8vnmAhXgxDgGHdrEBigQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:12:50,543 ---rating write complete---
+2020-01-11 02:12:50,543 ---------------------------------------------------
+2020-01-11 02:13:00,566 ---scrapping for rating start---
+2020-01-11 02:13:00,571 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:13:04,177 https://www.goodreads.com:443 "GET /book/show/5845.A_Bend_in_the_River?sa=X&ved=2ahUKEwjC4q_f8vnmAhX4zTgGHe9EA50QFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:13:04,715 ---rating write complete---
+2020-01-11 02:13:04,716 ---------------------------------------------------
+2020-01-11 02:13:16,845 ---scrapping for rating start---
+2020-01-11 02:13:16,848 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:13:20,404 https://www.goodreads.com:443 "GET /book/show/11741.Housekeeping?sa=X&ved=2ahUKEwisnJfn8vnmAhU7yDgGHapID7EQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:13:21,119 ---rating write complete---
+2020-01-11 02:13:21,120 ---------------------------------------------------
+2020-01-11 02:13:32,326 ---scrapping for rating start---
+2020-01-11 02:13:32,330 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:13:36,104 https://www.goodreads.com:443 "GET /book/show/6867.Atonement?sa=X&ved=2ahUKEwjSnMPu8vnmAhVnyDgGHTCVCVgQFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:13:36,732 ---rating write complete---
+2020-01-11 02:13:36,732 ---------------------------------------------------
+2020-01-11 02:13:57,863 ---scrapping for rating start---
+2020-01-11 02:13:57,867 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:13:59,644 https://www.goodreads.com:443 "GET /series/44427-his-dark-materials?sa=X&ved=2ahUKEwi_vN368vnmAhW2zDgGHQv6BgwQFnoECAsQAg HTTP/1.1" 200 None
+2020-01-11 02:13:59,739 ^^^rating write complete with ERROR^^^
+2020-01-11 02:13:59,763 ---final excel saved---
+2020-01-11 02:13:59,763 ---------------------------------------------------
+2020-01-11 02:13:59,763 ---------------------------------------------------
+2020-01-11 02:14:15,965 ---scrapping for rating start---
+2020-01-11 02:14:15,969 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:14:19,195 https://www.goodreads.com:443 "GET /book/show/841628.The_Hitchhiker_s_Guide_to_the_Galaxy?sa=X&ved=2ahUKEwi9uKuD8_nmAhUgzzgGHe8MC8kQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:14:20,396 ---rating write complete---
+2020-01-11 02:14:20,396 ---------------------------------------------------
+2020-01-11 02:14:27,583 ---scrapping for rating start---
+2020-01-11 02:14:27,588 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:14:31,352 https://www.goodreads.com:443 "GET /book/show/2623.Great_Expectations?sa=X&ved=2ahUKEwjGtfGI8_nmAhX8wzgGHZ9BBUUQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:14:33,197 ---rating write complete---
+2020-01-11 02:14:33,197 ---------------------------------------------------
+2020-01-11 02:14:47,129 ---scrapping for rating start---
+2020-01-11 02:14:47,133 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:14:51,217 https://www.goodreads.com:443 "GET /book/show/19089.Middlemarch?sa=X&ved=2ahUKEwin0Z6S8_nmAhVpyDgGHYTHC3MQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:14:51,909 ---rating write complete---
+2020-01-11 02:14:51,910 ---------------------------------------------------
+2020-01-11 02:15:07,029 ---scrapping for rating start---
+2020-01-11 02:15:07,032 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:15:11,226 https://www.goodreads.com:443 "GET /book/show/30933.Brideshead_Revisited?sa=X&ved=2ahUKEwjK59yb8_nmAhU0zzgGHcUPAcAQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:15:12,599 ---rating write complete---
+2020-01-11 02:15:12,600 ---------------------------------------------------
+2020-01-11 02:15:26,763 ---scrapping for rating start---
+2020-01-11 02:15:26,766 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:15:31,146 https://www.goodreads.com:443 "GET /book/show/15823480-anna-karenina?sa=X&ved=2ahUKEwjm-o2l8_nmAhWFyDgGHTHpAFgQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:15:32,944 ---rating write complete---
+2020-01-11 02:15:32,944 ---------------------------------------------------
+2020-01-11 02:15:49,976 ---scrapping for rating start---
+2020-01-11 02:15:49,980 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:15:51,639 https://www.goodreads.com:443 "GET /work/quotes/911489-portnoy-s-complaint?sa=X&ved=2ahUKEwj-3JKw8_nmAhWJyDgGHc7fCFMQFnoECAsQAg HTTP/1.1" 200 None
+2020-01-11 02:15:52,053 ^^^rating write complete with ERROR^^^
+2020-01-11 02:15:52,077 ---final excel saved---
+2020-01-11 02:15:52,077 ---------------------------------------------------
+2020-01-11 02:15:52,077 ---------------------------------------------------
+2020-01-11 02:16:04,222 ---scrapping for rating start---
+2020-01-11 02:16:04,225 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:16:08,183 https://www.goodreads.com:443 "GET /book/show/53835.The_Age_of_Innocence?sa=X&ved=2ahUKEwjP1fy28_nmAhUYyzgGHdeuBPgQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:16:09,738 ---rating write complete---
+2020-01-11 02:16:09,738 ---------------------------------------------------
+2020-01-11 02:16:13,909 ---scrapping for rating start---
+2020-01-11 02:16:13,913 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:16:17,589 https://www.goodreads.com:443 "GET /book/show/38447.The_Handmaid_s_Tale?sa=X&ved=2ahUKEwjlxsq78_nmAhXBwjgGHQD7DjYQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:16:19,307 ---rating write complete---
+2020-01-11 02:16:19,307 ---------------------------------------------------
+2020-01-11 02:16:35,417 ---scrapping for rating start---
+2020-01-11 02:16:35,420 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:16:38,738 https://www.goodreads.com:443 "GET /book/show/3876.The_Sun_Also_Rises?sa=X&ved=2ahUKEwiij-XF8_nmAhUozDgGHXJFC80QFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:16:40,236 ---rating write complete---
+2020-01-11 02:16:40,237 ---------------------------------------------------
+2020-01-11 02:16:56,358 ---scrapping for rating start---
+2020-01-11 02:16:56,361 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:17:00,466 https://www.goodreads.com:443 "GET /book/show/59716.To_the_Lighthouse?sa=X&ved=2ahUKEwiosezP8_nmAhU0zTgGHeDsBKAQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:17:02,379 ---rating write complete---
+2020-01-11 02:17:02,379 ---------------------------------------------------
+2020-01-11 02:17:11,572 ---scrapping for rating start---
+2020-01-11 02:17:11,575 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:17:14,791 https://www.goodreads.com:443 "GET /book/show/28251250-white-noise?sa=X&ved=2ahUKEwjTkYrX8_nmAhU-4zgGHTCoCHwQFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:17:16,512 ---rating write complete---
+2020-01-11 02:17:16,512 ---------------------------------------------------
+2020-01-11 02:17:34,535 ---scrapping for rating start---
+2020-01-11 02:17:34,538 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:17:38,525 https://www.goodreads.com:443 "GET /book/show/37380.The_Heart_Is_a_Lonely_Hunter?sa=X&ved=2ahUKEwjnxoHi8_nmAhUKzzgGHYd7DHUQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:17:39,166 ---rating write complete---
+2020-01-11 02:17:39,166 ---------------------------------------------------
+2020-01-11 02:17:46,156 ---scrapping for rating start---
+2020-01-11 02:17:46,159 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:17:49,969 https://www.goodreads.com:443 "GET /book/show/10975.The_Sound_and_the_Fury?sa=X&ved=2ahUKEwjl0snn8_nmAhX_yjgGHW9rA2wQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:17:51,091 ---rating write complete---
+2020-01-11 02:17:51,092 ---------------------------------------------------
+2020-01-11 02:18:05,210 ---scrapping for rating start---
+2020-01-11 02:18:05,212 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:18:09,116 https://www.goodreads.com:443 "GET /book/show/7805.Pale_Fire?sa=X&ved=2ahUKEwi819fw8_nmAhVMzjgGHU-sD1cQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:18:10,633 ---rating write complete---
+2020-01-11 02:18:10,633 ---------------------------------------------------
+2020-01-11 02:18:23,851 ---scrapping for rating start---
+2020-01-11 02:18:23,853 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:18:27,213 https://www.goodreads.com:443 "GET /book/show/18765.I_Claudius?sa=X&ved=2ahUKEwj2r8P58_nmAhVM4jgGHQVvAecQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:18:28,064 ---rating write complete---
+2020-01-11 02:18:28,065 ---------------------------------------------------
+2020-01-11 02:18:42,048 ---scrapping for rating start---
+2020-01-11 02:18:42,051 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:18:45,930 https://www.goodreads.com:443 "GET /book/show/17143.Go_Tell_It_on_the_Mountain?sa=X&ved=2ahUKEwi6qZyC9PnmAhXlzDgGHd7qAAUQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:18:47,255 ---rating write complete---
+2020-01-11 02:18:47,255 ---------------------------------------------------
+2020-01-11 02:19:05,199 ---scrapping for rating start---
+2020-01-11 02:19:05,203 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:19:07,753 https://www.goodreads.com:443 "GET /book/show/7885894-a-dance-to-the-music-of-time-complete-set?sa=X&ved=2ahUKEwj38KON9PnmAhVSyzgGHd5NA40Q9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:19:09,010 ---rating write complete---
+2020-01-11 02:19:09,010 ---------------------------------------------------
+2020-01-11 02:19:27,953 ---scrapping for rating start---
+2020-01-11 02:19:27,956 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:19:30,006 https://www.goodreads.com:443 "GET /work/quotes/543143-tropic-of-cancer?sa=X&ved=2ahUKEwi7v5GY9PnmAhWWxjgGHQFPDfcQFnoECAsQAg HTTP/1.1" 200 None
+2020-01-11 02:19:30,104 ^^^rating write complete with ERROR^^^
+2020-01-11 02:19:30,129 ---final excel saved---
+2020-01-11 02:19:30,129 ---------------------------------------------------
+2020-01-11 02:19:30,129 ---------------------------------------------------
+2020-01-11 02:19:49,054 ---scrapping for rating start---
+2020-01-11 02:19:49,057 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:19:52,452 https://www.goodreads.com:443 "GET /book/show/25622780-wide-sargasso-sea?sa=X&ved=2ahUKEwi4jJui9PnmAhUiyDgGHUd7AL0QFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:19:54,125 ---rating write complete---
+2020-01-11 02:19:54,126 ---------------------------------------------------
+2020-01-11 02:20:08,197 ---scrapping for rating start---
+2020-01-11 02:20:08,199 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:20:11,688 https://www.goodreads.com:443 "GET /book/show/11324.Under_the_Net?sa=X&ved=2ahUKEwjJiqKr9PnmAhWOzTgGHXktBVYQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:20:12,186 ---rating write complete---
+2020-01-11 02:20:12,186 ---------------------------------------------------
+2020-01-11 02:20:14,162 ---scrapping for rating start---
+2020-01-11 02:20:14,166 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:20:18,062 https://www.goodreads.com:443 "GET /book/show/7733.Gulliver_s_Travels?sa=X&ved=2ahUKEwjf5pOu9PnmAhW6zDgGHUHoCIMQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:20:19,640 ---rating write complete---
+2020-01-11 02:20:19,641 ---------------------------------------------------
+2020-01-11 02:20:32,553 ---scrapping for rating start---
+2020-01-11 02:20:32,556 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:20:36,273 https://www.goodreads.com:443 "GET /book/show/99329.The_History_of_Tom_Jones_a_Foundling?sa=X&ved=2ahUKEwiiqPm29PnmAhW_zjgGHXeqCrIQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:20:37,759 ---rating write complete---
+2020-01-11 02:20:37,759 ---------------------------------------------------
+2020-01-11 02:20:40,919 ---scrapping for rating start---
+2020-01-11 02:20:40,922 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:20:44,124 https://www.goodreads.com:443 "GET /book/show/529243.Clarissa_or_the_History_of_a_Young_Lady?sa=X&ved=2ahUKEwi13fW69PnmAhVY4jgGHWznAUMQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:20:45,549 ---rating write complete---
+2020-01-11 02:20:45,550 ---------------------------------------------------
+2020-01-11 02:20:54,436 ---scrapping for rating start---
+2020-01-11 02:20:54,439 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:20:58,984 https://www.goodreads.com:443 "GET /book/show/76527.The_Life_and_Opinions_of_Tristram_Shandy_Gentleman?sa=X&ved=2ahUKEwiotbLB9PnmAhWOzjgGHfY-BykQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:21:01,050 ---rating write complete---
+2020-01-11 02:21:01,051 ---------------------------------------------------
+2020-01-11 02:21:06,161 ---scrapping for rating start---
+2020-01-11 02:21:06,161 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:21:10,297 https://www.goodreads.com:443 "GET /book/show/12296.The_Scarlet_Letter?sa=X&ved=2ahUKEwjFkf3G9PnmAhVQ4zgGHVC-ARoQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:21:11,901 ---rating write complete---
+2020-01-11 02:21:11,901 ---------------------------------------------------
+2020-01-11 02:21:22,875 ---scrapping for rating start---
+2020-01-11 02:21:22,878 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:21:26,449 https://www.goodreads.com:443 "GET /book/show/2175.Madame_Bovary?sa=X&ved=2ahUKEwjusvTO9PnmAhV8zjgGHVFeBtgQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:21:28,337 ---rating write complete---
+2020-01-11 02:21:28,337 ---------------------------------------------------
+2020-01-11 02:21:31,296 ---scrapping for rating start---
+2020-01-11 02:21:31,298 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:21:34,886 https://www.goodreads.com:443 "GET /book/show/264.The_Portrait_of_a_Lady?sa=X&ved=2ahUKEwjHzPjS9PnmAhVCzjgGHYZ1D1EQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:21:36,801 ---rating write complete---
+2020-01-11 02:21:36,802 ---------------------------------------------------
+2020-01-11 02:21:57,991 ---scrapping for rating start---
+2020-01-11 02:21:57,995 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:22:01,857 https://www.goodreads.com:443 "GET /book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde?sa=X&ved=2ahUKEwjJjtPf9PnmAhWvzzgGHXSdBkcQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:22:03,401 ---rating write complete---
+2020-01-11 02:22:03,402 ---------------------------------------------------
+2020-01-11 02:22:07,340 ---scrapping for rating start---
+2020-01-11 02:22:07,343 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:22:10,442 https://www.goodreads.com:443 "GET /book/show/115476.Nostromo?sa=X&ved=2ahUKEwi-z5Hk9PnmAhVK4zgGHQZSBOYQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:22:11,162 ---rating write complete---
+2020-01-11 02:22:11,162 ---------------------------------------------------
+2020-01-11 02:22:18,151 ---scrapping for rating start---
+2020-01-11 02:22:18,155 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:22:22,215 https://www.goodreads.com:443 "GET /book/show/18796.In_Search_of_Lost_Time?sa=X&ved=2ahUKEwiOlqLp9PnmAhXmxTgGHVehAeMQFjAAegQIARAB HTTP/1.1" 200 None
+2020-01-11 02:22:24,222 ---rating write complete---
+2020-01-11 02:22:24,222 ---------------------------------------------------
+2020-01-11 02:22:28,364 ---scrapping for rating start---
+2020-01-11 02:22:28,367 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:22:31,292 https://www.goodreads.com:443 "GET /book/show/31491.The_Rainbow?sa=X&ved=2ahUKEwjDz5Pu9PnmAhX7zDgGHW_dDr4QFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:22:32,102 ---rating write complete---
+2020-01-11 02:22:32,102 ---------------------------------------------------
+2020-01-11 02:22:53,309 ---scrapping for rating start---
+2020-01-11 02:22:53,313 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:22:55,130 https://www.goodreads.com:443 "GET /author/show/1209.Ford_Madox_Ford?sa=X&ved=2ahUKEwjL2YL69PnmAhWzxTgGHUQvD-IQFjAAegQICRAB HTTP/1.1" 200 None
+2020-01-11 02:22:55,449 ---rating write complete---
+2020-01-11 02:22:55,450 ---------------------------------------------------
+2020-01-11 02:23:07,360 ---scrapping for rating start---
+2020-01-11 02:23:07,360 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:23:10,344 https://www.goodreads.com:443 "GET /book/show/17690.The_Trial?sa=X&ved=2ahUKEwjZ9OOA9fnmAhX1zDgGHQqUCnIQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:23:12,110 ---rating write complete---
+2020-01-11 02:23:12,110 ---------------------------------------------------
+2020-01-11 02:23:26,064 ---scrapping for rating start---
+2020-01-11 02:23:26,064 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:23:29,751 https://www.goodreads.com:443 "GET /book/show/77013.As_I_Lay_Dying?sa=X&ved=2ahUKEwjw6NaJ9fnmAhWFoOkKHRZDA5MQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:23:31,314 ---rating write complete---
+2020-01-11 02:23:31,314 ---------------------------------------------------
+2020-01-11 02:23:35,427 ---scrapping for rating start---
+2020-01-11 02:23:35,427 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:23:39,317 https://www.goodreads.com:443 "GET /book/show/24178.Charlotte_s_Web?sa=X&ved=2ahUKEwj--ZOO9fnmAhVx4zgGHX55BMUQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:23:40,551 ---rating write complete---
+2020-01-11 02:23:40,551 ---------------------------------------------------
+2020-01-11 02:23:42,504 ---scrapping for rating start---
+2020-01-11 02:23:42,504 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:23:45,538 https://www.goodreads.com:443 "GET /book/show/35743.The_Tin_Drum?sa=X&ved=2ahUKEwjwtcCR9fnmAhWzxTgGHUQvD-IQFjAAegQIBhAB HTTP/1.1" 200 None
+2020-01-11 02:23:46,491 ---rating write complete---
+2020-01-11 02:23:46,491 ---------------------------------------------------
+2020-01-11 02:23:48,608 ---scrapping for rating start---
+2020-01-11 02:23:48,608 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:23:49,967 https://www.goodreads.com:443 "GET /work/quotes/2088454-herzog?sa=X&ved=2ahUKEwimrLiU9fnmAhWgzjgGHT_EAMMQFjAAegQICxAC HTTP/1.1" 200 None
+2020-01-11 02:23:50,523 ^^^rating write complete with ERROR^^^
+2020-01-11 02:23:50,554 ---final excel saved---
+2020-01-11 02:23:50,554 ---------------------------------------------------
+2020-01-11 02:23:50,554 ---------------------------------------------------
+2020-01-11 02:24:03,556 ---scrapping for rating start---
+2020-01-11 02:24:03,556 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:24:07,431 https://www.goodreads.com:443 "GET /book/show/10073506-tinker-tailor-soldier-spy?sa=X&ved=2ahUKEwjAm8Wb9fnmAhXzzjgGHTYbB-QQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:24:09,087 ---rating write complete---
+2020-01-11 02:24:09,087 ---------------------------------------------------
+2020-01-11 02:24:22,246 ---scrapping for rating start---
+2020-01-11 02:24:22,246 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:24:25,248 https://www.goodreads.com:443 "GET /book/show/11334.Song_of_Solomon?sa=X&ved=2ahUKEwjtr7qk9fnmAhX1wzgGHfEjCVQQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:24:25,842 ---rating write complete---
+2020-01-11 02:24:25,842 ---------------------------------------------------
+2020-01-11 02:24:35,781 ---scrapping for rating start---
+2020-01-11 02:24:35,781 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:24:39,155 https://www.goodreads.com:443 "GET /book/show/18825.Money?sa=X&ved=2ahUKEwiuyvaq9fnmAhUiwTgGHQdJC7AQFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:24:39,733 ---rating write complete---
+2020-01-11 02:24:39,733 ---------------------------------------------------
+2020-01-11 02:24:59,675 ---scrapping for rating start---
+2020-01-11 02:24:59,675 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:25:02,758 https://www.goodreads.com:443 "GET /book/show/316496.Oscar_and_Lucinda?sa=X&ved=2ahUKEwjpn6m29fnmAhXQyjgGHVMHDvIQ9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:25:03,914 ---rating write complete---
+2020-01-11 02:25:03,914 ---------------------------------------------------
+2020-01-11 02:25:08,948 ---scrapping for rating start---
+2020-01-11 02:25:08,948 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:25:12,198 https://www.goodreads.com:443 "GET /book/show/4835.Haroun_and_the_Sea_of_Stories?sa=X&ved=2ahUKEwjV5ti69fnmAhXvzTgGHXYzAAYQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:25:12,619 ---rating write complete---
+2020-01-11 02:25:12,619 ---------------------------------------------------
+2020-01-11 02:25:22,542 ---scrapping for rating start---
+2020-01-11 02:25:22,542 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:25:26,169 https://www.goodreads.com:443 "GET /book/show/11650.American_Pastoral?sa=X&ved=2ahUKEwiU1JzB9fnmAhUSzDgGHZfPAZ8QFjAAegQIAxAB HTTP/1.1" 200 None
+2020-01-11 02:25:27,841 ---rating write complete---
+2020-01-11 02:25:27,841 ---------------------------------------------------
+2020-01-11 02:25:42,958 ---scrapping for rating start---
+2020-01-11 02:25:42,958 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:26:06,003 https://www.goodreads.com:443 "GET /book/show/88442.Austerlitz?sa=X&ved=2ahUKEwj6pPvK9fnmAhXVpOkKHepvD3QQFjAAegQIBRAB HTTP/1.1" 200 None
+2020-01-11 02:26:08,065 ---rating write complete---
+2020-01-11 02:26:08,065 ---------------------------------------------------
+2020-01-11 02:26:25,109 ---scrapping for rating start---
+2020-01-11 02:26:25,109 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:26:28,734 https://www.goodreads.com:443 "GET /book/show/33574273-a-wrinkle-in-time?sa=X&ved=2ahUKEwia5IHf9fnmAhUYyDgGHbVQCP8QFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:26:29,390 ---rating write complete---
+2020-01-11 02:26:29,390 ---------------------------------------------------
+2020-01-11 02:26:36,547 ---scrapping for rating start---
+2020-01-11 02:26:36,563 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:26:39,375 https://www.goodreads.com:443 "GET /book/show/37732.Are_You_There_God_It_s_Me_Margaret?sa=X&ved=2ahUKEwjgmsDk9fnmAhXtyjgGHeMJA80Q9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:26:40,597 ---rating write complete---
+2020-01-11 02:26:40,597 ---------------------------------------------------
+2020-01-11 02:26:56,614 ---scrapping for rating start---
+2020-01-11 02:26:56,614 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:26:58,176 https://www.goodreads.com:443 "GET /author/show/4176632.W_Somerset_Maugham?sa=X&ved=2ahUKEwiFhoXu9fnmAhUUxzgGHbLvAFgQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:26:58,723 ---rating write complete---
+2020-01-11 02:26:58,723 ---------------------------------------------------
+2020-01-11 02:27:18,883 ---scrapping for rating start---
+2020-01-11 02:27:18,898 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:27:22,416 https://www.goodreads.com:443 "GET /book/show/3985.The_Amazing_Adventures_of_Kavalier_Clay?sa=X&ved=2ahUKEwi9zNb49fnmAhUfyDgGHQ2rBkgQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:27:23,884 ---rating write complete---
+2020-01-11 02:27:23,884 ---------------------------------------------------
+2020-01-11 02:27:35,982 ---scrapping for rating start---
+2020-01-11 02:27:35,982 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:27:39,763 https://www.goodreads.com:443 "GET /book/show/297673.The_Brief_Wondrous_Life_of_Oscar_Wao?sa=X&ved=2ahUKEwicx-OA9vnmAhU-xDgGHRcdBq0QFjAAegQIABAB HTTP/1.1" 200 None
+2020-01-11 02:27:41,185 ---rating write complete---
+2020-01-11 02:27:41,185 ---------------------------------------------------
+2020-01-11 02:27:48,372 ---scrapping for rating start---
+2020-01-11 02:27:48,372 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:27:51,794 https://www.goodreads.com:443 "GET /book/show/3805.The_Corrections?sa=X&ved=2ahUKEwjSht-G9vnmAhWfxzgGHXGfBW0Q9QF6BAgLEAI HTTP/1.1" 200 None
+2020-01-11 02:27:53,497 ---rating write complete---
+2020-01-11 02:27:53,497 ---------------------------------------------------
+2020-01-11 02:28:08,645 ---scrapping for rating start---
+2020-01-11 02:28:08,645 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:28:12,240 https://www.goodreads.com:443 "GET /book/show/378.The_Phantom_Tollbooth?sa=X&ved=2ahUKEwjHy7WQ9vnmAhX5yDgGHVYyDQAQFjAAegQIBBAB HTTP/1.1" 200 None
+2020-01-11 02:28:12,881 ---rating write complete---
+2020-01-11 02:28:12,881 ---------------------------------------------------
+2020-01-11 02:28:26,867 ---scrapping for rating start---
+2020-01-11 02:28:26,867 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:28:30,369 https://www.goodreads.com:443 "GET /book/show/11275.The_Wind_Up_Bird_Chronicle?sa=X&ved=2ahUKEwieyIuZ9vnmAhUZxDgGHaDCAUgQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:28:31,947 ---rating write complete---
+2020-01-11 02:28:31,947 ---------------------------------------------------
+2020-01-11 02:28:38,976 ---scrapping for rating start---
+2020-01-11 02:28:38,992 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:28:43,245 https://www.goodreads.com:443 "GET /book/show/37415.Their_Eyes_Were_Watching_God?sa=X&ved=2ahUKEwj6w-2e9vnmAhUFxjgGHd1dDnUQFjAAegQIAhAB HTTP/1.1" 200 None
+2020-01-11 02:28:44,682 ---rating write complete---
+2020-01-11 02:28:44,682 ---------------------------------------------------
+2020-01-11 02:29:03,686 ---scrapping for rating start---
+2020-01-11 02:29:03,702 Starting new HTTPS connection (1): www.goodreads.com:443
+2020-01-11 02:30:04,593 https://www.goodreads.com:443 "GET /book/show/472331.Watchmen?sa=X&ved=2ahUKEwiW_tGq9vnmAhWd4zgGHcB-B7YQFjAAegQIBBAB HTTP/1.1" 504 1741
