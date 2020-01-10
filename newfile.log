@@ -1,4 +1,0 @@
-2020-01-10 23:07:38,535 Starting new HTTPS connection (1): www.goodreads.com:443
-2020-01-10 23:07:39,438 https://www.goodreads.com:443 "GET /group/show/185-what-s-the-name-of-that-book?sa=X&ved=2ahUKEwiTj6-nyfnmAhUXXisKHVPdDkMQFjAAegQIBRAB HTTP/1.1" 302 0
-2020-01-10 23:07:39,441 Starting new HTTP connection (1): blrproxy2.igate.com:8080
-2020-01-10 23:07:39,446 http://blrproxy2.igate.com:8080 "GET http://10.51.1.172:15871/cgi-bin/blockpage.cgi?ws-session=1890564153 HTTP/1.1" 200 2875
