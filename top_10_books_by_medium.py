@@ -58,17 +58,7 @@ for bn,ba in bookdict.items():
     sheet_objex.cell(row=booknum+1,column=3).value=str(bookauthor)
     #sheet_objex.cell(row=booknum+1,column=4).value='Rating'
    
-    
-    
-###########################################################################
-'''
-for i in range(1,booknum+1):
-    sheet_objex.cell(row=i,column=1).value=
-    sheet_objex.cell(row=i,column=2).value=
-    sheet_objex.cell(row=i,column=3).value=
-    print(booknumex,booknameex,"by",bookauthorx)  
-'''    
-wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\excel_doc1.xlsx")
+wb_objex.save(r"C:\Users\pratms\pythonprojects\webscrapping\webscrapping_medium_top_10\top100BokksByMedium.xlsx")
     
 end = time.time()
 print("time taken by program is:"+str(end - start)) 
